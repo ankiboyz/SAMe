@@ -7,6 +7,7 @@ verify_ssl = true
 
 [packages]
 flask = "*"
+yfinance = "*"
 
 [requires]
 python_version = "3.6"

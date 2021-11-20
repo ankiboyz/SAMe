@@ -6,14 +6,14 @@ This will trigger the application run.
 import config
 from flask import Flask
 import logging
+import SAMe_app
 
 logger = logging.getLogger(__name__)
 
 if __name__ == "__main__":
     print(__name__)
 
-# currently calling the Flask application here, we will have a dedicated method for creating the flask app.
-app_SAMe = Flask(__name__)
+app_SAMe = SAMe_app.create_app()
 
 try:
     # with host="0.0.0.0" argument the up application is run on all IPs of this server
