@@ -1,3 +1,4 @@
+# JSM!!!
 # SAMe - Stocks Algorithms Model ensemble.
 
 The Project is built with following ideologies:
