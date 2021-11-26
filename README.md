@@ -17,3 +17,10 @@ Eventually
     - the real time data for the minute for intra day can be gathered through other real time APIs.
     - interval minute wise is supported only if the start and end dates are within 60 days.
     - if the analysis is within 60 days then we can do the intra-day or minute wise analysis.
+
+
+
+Ideologies:
+    - Need to aim at 100% test coverage.
+    - Every service i.e. every url need to have tests corresponding to those, 
+      even the internal methods would be having the test coverage.
